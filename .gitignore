@@ -1,5 +1,6 @@
 data/raw/*.xlsx
 data/processed/*.csv
+data/processed/*.db
 .venv/
 __pycache__/
 *.ipynb_checkpoints

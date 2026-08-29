@@ -1,0 +1,1 @@
+-- Calcul du RFM et scoring par quintiles, directement en SQL à partir de la table orders.

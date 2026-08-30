@@ -43,7 +43,7 @@ SELECT
         WHEN r_score >= 4 AND f_score <= 2 THEN 'Nouveaux clients'
         WHEN r_score <= 2 AND f_score >= 4 AND m_score >= 4 THEN 'A risque'
         WHEN r_score <= 2 AND f_score <= 2 THEN 'Perdus'
-        WHEN r_score = 3 THEN 'Clients reguliers'
+        WHEN r_score = 3 THEN 'Clients réguliers'
         ELSE 'Autres'
     END AS segment_rfm
 FROM rfm_scored;

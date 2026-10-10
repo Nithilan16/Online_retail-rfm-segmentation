@@ -15,8 +15,9 @@ Pour reproduire l'analyse :
 3. Exécuter le notebook `notebooks/online_retail.ipynb`, qui génère 
    automatiquement les fichiers nettoyés dans `data/processed/`.
 
-## Structure du repo
+## Structure du projet
 
+```text
 retail-rfm-segmentation/
 ├── data/
 │ ├── raw/ # dataset original (non versionné)
@@ -32,7 +33,7 @@ retail-rfm-segmentation/
 ├── docs/
 │ └── notes_exploration.md
 └── README.md
-
+```
 
 ## Méthodologie
 
